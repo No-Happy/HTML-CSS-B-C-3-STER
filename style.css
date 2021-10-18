@@ -1,0 +1,92 @@
+
+body, html { 
+    background-color: #6495ED;
+    /* background-color: #02B4F2; */
+    font-family: Proxima Nova;
+    height: 100%;
+    display: grid;
+  
+  }
+  
+  /* .background {
+    width: 620px;
+    height: 350px;
+    display: block;
+    margin: auto;
+    font-family: Proxima Nova;
+    background-color: #ffffff;
+    border: 3px solid white;
+    border-radius: 5px;
+  } */
+  
+  .card-header {
+    background-color: #ffffff;
+    height: 100px;
+    text-align: right;
+    font-size: 35px;
+    padding: 10px;
+    font-weight: 600;
+  color: #6495ED;
+  
+   
+  }
+  
+  
+  .name {
+      padding: 1px;
+      font-weight: 600;
+      color: #000;
+    
+  }
+  
+  .card {
+       height: 200px;
+      border-style: solid;border-color:
+      #d1ccc0 #dfe4ea #1e90ff #4b7bec; border-width: 5px;
+  
+      background-color: #CCCCFF;
+  
+      /* background-color:#02B4F2; */
+      padding: 30px;
+      color: white;
+      text-align: left;
+      font-weight: 500; 
+  }
+  
+  .info {
+      color: white;
+      margin-top: 20px;
+      text-align: left;
+      font-weight: 150;
+      font-size: 20px;
+  }
+  
+  .fancy-line {
+    border-top: 3px solid white;
+    width: 700px;
+    transform: rotate(30deg);
+    transform-origin: 0% 0%;
+    opacity: ;
+  }
+  
+  .name:hover { 
+      text-decoration: underline;
+  }
+  .social-list{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    justify-content: space-around;
+    width: 125px;
+    margin: 0 auto;
+  }
+  .social-link{
+     opacity: 0.5;
+    font-size: 1.125rem;
+  }
+  .social-link:hover,
+  .social-link:focus{
+    opacity: 1;
+  }
